@@ -1,0 +1,49 @@
+body {
+    //padding-top: 2em;
+}
+
+div#wedding_information > table {
+
+}
+
+section#rsvp > form {
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav > ul {
+    display: table;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+nav > ul > li {
+    vertical-align: top;
+    display: table-cell;
+    margin: 0 auto;
+}
+
+nav > ul > li > a {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding: 1em;
+    margin: auto;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    background-color: #EEEEEE;
+    color: #222222
+}

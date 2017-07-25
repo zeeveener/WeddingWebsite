@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Merissa and Zac Wedding</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#wedding">Wedding Information</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#excursions">Excursions</a></li>
+                <li><a href="#travel_agent">Travel Agent</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <section id="wedding">
+            <h1>What's Up?</h1>
+
+            <!--<h3>"You boys like Mexico?!"</h3>-->
+            <!--<iframe width="640" height="480" src="https://www.youtube.com/embed/QGgGCvuez14" frameborder="0" allowfullscreen></iframe>-->
+
+
+            <div id="wedding_information">
+                <table>
+                    <tr>
+                        <td>Who</td>
+                        <td>Merissa van Steenoven and Zac Beemer</td>
+                    </tr>
+                    <tr>
+                        <td>When</td>
+                        <td>April 5, 2018</td>
+                    </tr>
+                    <tr>
+                        <td>Where</td>
+                        <td>Puerto Vallarta, Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Why</td>
+                        <td>Why not?</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="location">
+            <h1>Where is this place?</h1>
+        </section>
+        <section id="excursions">
+            <h1>What will we do?</h1>
+        </section>
+        <section id="travel_agent">
+            <h1>How do we get there?</h1>
+        </section>
+        <section id="rsvp">
+            <h1>How do I sign up?</h1>
+            <form method="post" action="#wedding">
+                <span>
+                    Name:
+                    <label id="first_name_label">
+                        First
+                        <input name="first_name" placeholder="First Name" required/>
+                    </label>
+                    <label id="last_name_label">
+                        Last
+                        <input name="last_name" placeholder="Last Name" required />
+                    </label>
+                </span>
+                <br/>
+                <label id="email_address_label">
+                    Email Address:
+                    <input name="email_address" placeholder="email@example.com"/>
+                </label>
+                <br/>
+                I am
+                <label id="going_label">
+                    Going
+                    <input type="radio" name="going" value="true" required/>
+                </label>
+                <br/>
+                <label id="not_going_label">
+                    Not Going
+                    <input type="radio" name="going" value="false" required/>
+                </label>
+                <button value="submit">RSVP</button>
+            </form>
+        </section>
+    </body>
+</html>
