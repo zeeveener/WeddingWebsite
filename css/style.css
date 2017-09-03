@@ -108,33 +108,142 @@ div#back{
     background-color: #FFFEEE;
     width: 10%;
     text-align: center;
-    /*overflow: hidden;*/
     padding: 0;
 }
-/*#slider {*/
-    /*position: relative;*/
-    /*overflow: hidden;*/
-    /*margin: 20px auto 0 auto;*/
-    /*border-radius: 4px;*/
-/*}*/
 
-/*#slider ul {*/
-    /*position: relative;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*height: 200px;*/
-    /*list-style: none;*/
-/*}*/
+.rsvp-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #FEF9E6;
+    border-radius: 2px;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-/*#slider ul li {*/
-    /*position: relative;*/
-    /*display: block;*/
-    /*float: left;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*width: 500px;*/
-    /*height: 300px;*/
-    /*background: #ccc;*/
-    /*text-align: center;*/
-    /*line-height: 300px;*/
-/*}*/
+.rsvp-form h1 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size: x-large;
+}
+
+.rsvp-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rsvp-form li {
+    display: block;
+    padding: 9px;
+    border: 1px solid #505050;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.rsvp-form li:last-child {
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.rsvp-form li > label {
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FEF9E6;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #505050;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rsvp-form input[type="text"],
+.rsvp-form input[type="date"],
+.rsvp-form input[type="datetime"],
+.rsvp-form input[type="email"],
+.rsvp-form input[type="number"],
+.rsvp-form input[type="search"],
+.rsvp-form input[type="time"],
+.rsvp-form input[type="url"],
+.rsvp-form input[type="password"],
+.rsvp-form textarea,
+.rsvp-form select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: 1px solid #505050;
+    border-bottom: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 1px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.rsvp-form input[type="text"]:focus,
+.rsvp-form input[type="date"]:focus,
+.rsvp-form input[type="datetime"]:focus,
+.rsvp-form input[type="email"]:focus,
+.rsvp-form input[type="number"]:focus,
+.rsvp-form input[type="search"]:focus,
+.rsvp-form input[type="time"]:focus,
+.rsvp-form input[type="url"]:focus,
+.rsvp-form input[type="password"]:focus,
+.rsvp-form textarea:focus,
+.rsvp-form select:focus {
+    border: 1px solid #35dfff;
+    border-bottom: none;
+}
+
+.rsvp-form input[type=checkbox] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.rsvp-form li > span {
+    background: #505050;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #FEF9E6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.rsvp-form textarea {
+    resize: none;
+}
+
+.rsvp-form input[type="submit"],
+.rsvp-form input[type="button"] {
+    background: #2471FF;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #5994FF;
+    border-radius: 3px;
+    color: #D2E2FF;
+}
+
+.rsvp-form input[type="submit"]:hover,
+.rsvp-form input[type="button"]:hover {
+    background: #6B9FFF;
+    color: #fff;
+}
