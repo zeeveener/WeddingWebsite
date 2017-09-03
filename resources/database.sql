@@ -1,9 +1,11 @@
 DROP DATABASE IF EXISTS `wedding2018`;
 DROP USER `zac_wedding`@`localhost`;
+DROP USER `zac_wedding`@`%`;
 
 CREATE DATABASE `wedding2018`;
 CREATE USER `zac_wedding`@`localhost` IDENTIFIED BY 'budgie';
 GRANT ALL PRIVILEGES ON `wedding2018`.* TO `zac_wedding`@`localhost`;
+GRANT ALL PRIVILEGES ON `wedding2018`.* TO `zac_wedding`@`%` IDENTIFIED BY 'budgie';
 
 USE `wedding2018`;
 
