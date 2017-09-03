@@ -158,8 +158,15 @@
                         If you have more people to RSVP for, please do so using the same form.
                     </div>
                 <?php
+                    } else {
+                ?>
+                    <div style="color: darkred; text-align: center; width: 100%; font-size: 1.5rem; margin: 0 auto">
+                        Due to reasons, if you do not fill out the RSVP, we will have to assume you are not coming and will not account for you in our planning.
+                    </div>
+                <?php
                     }
                 ?>
+
                 <form class="rsvp-form" method="post" action="../actions/submit.php">
                     <ul>
                         <li>
