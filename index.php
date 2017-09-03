@@ -7,7 +7,7 @@
 
     <head>
         <title>Beemer Wedding</title>
-        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <header>
         <nav id="menu">
@@ -68,7 +68,7 @@
                     <tr>
                         <td class="info-label">Photos:</td>
                         <td>
-                            <a href="./photos.html" name=gallery-page">Gallery Page</a>
+                            <a href="photos.html" name=gallery-page">Gallery Page</a>
                         </td>
                     </tr>
                 </table>
@@ -167,7 +167,7 @@
                     }
                 ?>
 
-                <form class="rsvp-form" method="post" action="../actions/submit.php">
+                <form class="rsvp-form" method="post" action="actions/submit.php">
                     <ul>
                         <li>
                             <label for="first-name">First Name</label>

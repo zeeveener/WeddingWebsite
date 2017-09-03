@@ -17,4 +17,4 @@ $statement->bind_param("sssi", $firstName, $lastName, $email, intval($coming));
 $statement->execute();
 $statement->close();
 
-header("Location: /html/index.php?responded=1#rsvp");
+header("Location: /index.php?responded=1#rsvp");
