@@ -104,7 +104,7 @@ ul#photo-list > li {
 
 div#back{
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     background-color: #FFFEEE;
     width: 10%;
     text-align: center;
@@ -124,7 +124,7 @@ div#back{
     display: block;
     text-align: center;
     padding: 0;
-    margin: 0px 0px 20px 0px;
+    margin: 0 0 20px 0;
     color: #5C5C5C;
     font-size: x-large;
 }
@@ -145,7 +145,7 @@ div#back{
 
 .rsvp-form li:last-child {
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -246,4 +246,12 @@ div#back{
 .rsvp-form input[type="button"]:hover {
     background: #6B9FFF;
     color: #fff;
+}
+
+#success_message {
+    width: 100%;
+    margin: 0 auto;
+    color: #008282;
+    text-align: center;
+    font-size: 2rem;
 }
