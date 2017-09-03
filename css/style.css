@@ -7,7 +7,7 @@ Colors:
 
 body {
     padding-top: 2em;
-    background-color: #008282;
+    background: #008282 linear-gradient(to bottom, #008282, #9900D6);
     margin: 0;
 }
 
@@ -70,7 +70,7 @@ div.information {
 
     padding: 1em;
 
-    background-color: #FFFEEE;
+    background-color: #FEF9E6;
     border-radius: 0.5em;
     border: 0.15em solid #9900D6;
 }
