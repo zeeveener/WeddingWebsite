@@ -149,26 +149,37 @@
             <span class="navbar-padding" id="rsvp"></span>
             <h1>How do I sign up?</h1>
             <div class="information">
+                <?php
+                    if( isset($_GET["responded"]) ){
+                ?>
+                    <div id="success_message">
+                        Thank you for RSVPing!
+                        <br/>
+                        If you have more people to RSVP for, please do so using the same form.
+                    </div>
+                <?php
+                    }
+                ?>
                 <form class="rsvp-form" method="post" action="../actions/submit.php">
                     <ul>
                         <li>
                             <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" maxlength="100"required>
+                            <input type="text" id="first-name" name="first-name" maxlength="100" required>
                             <span>Enter your first name here</span>
                         </li>
                         <li>
                             <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" maxlength="100"required>
+                            <input type="text" id="last-name" name="last-name" maxlength="100" required>
                             <span>Enter your last name here</span>
                         </li>
                         <li>
                             <label for="email">Email Address</label>
-                            <input type="email" id="email" maxlength="100" required>
+                            <input type="email" id="email" name="email" maxlength="100" required>
                             <span>Enter a valid email address</span>
                         </li>
                         <li>
                             <label for="coming">I will be there</label>
-                            <input type="checkbox" id="coming">
+                            <input type="checkbox" id="coming" name="coming">
                             <span>Will you be coming? (Unchecked = No)</span>
                         </li>
                         <li>
