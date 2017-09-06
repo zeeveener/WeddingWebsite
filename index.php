@@ -160,8 +160,11 @@
                 <?php
                     } else {
                 ?>
-                    <div style="color: darkred; text-align: center; width: 100%; font-size: 1.5rem; margin: 0 auto">
+                    <div style="color: darkred; text-align: center; width: 100%; font-size: 16px; margin: 0 auto">
                         Due to reasons, if you do not fill out the RSVP, we will have to assume you are not coming and will not account for you in our planning.
+                    </div>
+                    <div style="color: #9900D6; text-align: center; width: 100%; font-size: 16px; margin: 0 auto">
+                        Please only put one person's name in the RSVP form at a time. We need accurate numbers.
                     </div>
                 <?php
                     }
