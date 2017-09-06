@@ -30,7 +30,7 @@ if(!$results = $statement->get_result()){
 <!DOCTYPE html>
 <html>
     <body>
-        <h2>RSVPs</h2>
+        <h2>RSVPs (<?php echo $results->num_rows ?>)</h2>
         <table>
             <tr>
                 <th>Name</th>
