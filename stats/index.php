@@ -17,6 +17,7 @@ SELECT
     WHEN 0 THEN 'No'
   END Coming
   FROM `RSVP`");
+$statement->execute();
 
 if(!$results = $statement->get_result()){
     echo "An Error Occurred: ";
